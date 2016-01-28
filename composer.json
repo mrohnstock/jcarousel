@@ -1,0 +1,41 @@
+{
+    "name": "mrohnstock/jcarousel",
+    "description": "Riding carousels with jQuery",
+    "type": "component",
+    "homepage": "http://sorgalla.com/jcarousel/",
+    "license": "MIT",
+    "keywords": [
+        "carousel",
+        "slider",
+        "slideshow",
+        "animation"
+    ],
+    "author": {
+        "url": "http://sorgalla.com/",
+        "name": "Jan Sorgalla"
+    },
+    "require": {
+        "components/jquery": ">=1.7"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "js/jquery.jcarousel-autoscroll.js",
+                "js/jquery.jcarousel-autoscroll.min.js",
+                "js/jquery.jcarousel-control.js",
+                "js/jquery.jcarousel-control.min.js",
+                "js/jquery.jcarousel-core.js",
+                "js/jquery.jcarousel-core.min.js",
+                "js/jquery.jcarousel.js",
+                "js/jquery.jcarousel.min.js",
+                "js/jquery.jcarousel-pagination.js",
+                "js/jquery.jcarousel-pagination.min.js",
+                "js/jquery.jcarousel-scrollintoview.js",
+                "js/jquery.jcarousel-scrollintoview.min.js"
+            ],
+            "shim": {
+                "deps": ["jquery"]
+            }
+        }
+    }
+}
